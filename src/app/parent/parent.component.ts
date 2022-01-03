@@ -15,10 +15,10 @@ export class ParentComponent implements OnInit {
   }
 
   receiveMessage(msg: string) {
-    alert(msg);
+    console.log(msg);
   }
   
   ngAfterViewInit() {
-    alert(this.child.message);
+    console.log(this.child.message);
   }
 }

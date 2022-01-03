@@ -10,3 +10,7 @@ h2 {
 :host(.active) {
     border: 1px solid blue;
 }
+
+:host-context(.theme-light) h2 {
+    background-color: #eef;
+}
